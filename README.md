@@ -10,3 +10,5 @@
 第三种方法读取日志来自于https://github.com/shuiguang/workerman-crontab/blob/master/Applications/Crontab/Lib/functions.php
 
 使用js定时请求php，读取日志的最后几行然后返回给前端以实现监控，不过该functions.php中FileLastLines存在bug，比如读取最后一行失败，而且使用数组记录要读取的行比较浪费内存。
+
+index.php中的FileLastLines已经修复。
